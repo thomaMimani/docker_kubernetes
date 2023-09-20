@@ -1,8 +1,8 @@
 FROM node
 
-WORKDIR /node
+WORKDIR /zylal
 
-COPY . .
+COPY . /zylal
 
 EXPOSE 3000
 

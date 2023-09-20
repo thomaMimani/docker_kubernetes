@@ -10,6 +10,4 @@ COPY . .
 
 RUN npm install
 
-VOLUME [ "/data-volumes/feedback" ]
-
 CMD ["node", "server.js"]
