@@ -10,4 +10,8 @@ COPY . .
 
 RUN npm install
 
-CMD ["node", "server.js"]
+# VOLUME ["/data-volumes/node_modules"]
+
+VOLUME [ "/data-volumes/temp"]
+
+CMD ["npm", "start"]
